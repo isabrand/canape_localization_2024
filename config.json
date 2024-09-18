@@ -1,0 +1,65 @@
+{   "AUDIO_DIR": "/mnt/dump2/scratch/students/idil/canape/multichannel_localization/",
+    "ANNOTATION_DIR": "/mnt/dump2/scratch/students/idil/canape/annotations/",
+    "OUT_DIR": "",
+
+    "SAVE": true,
+    "INTERVAL": true,
+    "UPPER_LIMIT": 20000000,
+    "LOWER_LIMIT": 1,
+    "RANGELAT_LOW": 72.2,
+    "RANGELAT_HIGH": 73.2,
+    "RANGELONG_LOW": -159.5,
+    "RANGELONG_HIGH": -156.5,
+
+    "STOP":{
+      "general":false,
+      "step_frequency":false,
+      "step_spectrogram":false,
+      "step_lag":false
+    },
+
+    "PLOT":{
+      "step_frequency":false,
+      "step_spectrogram":false,
+      "step_lag":false,
+      "step_tdoa":true,
+      "step_dens":true
+    },
+
+    "LOAD":{
+      "general":false,
+      "step_frequency":false,
+      "step_lag":false
+    },
+
+
+    "ANIMATION": true,
+
+    "PROJ": "+proj=utm +zone=4 +north +ellps=WGS84 +units=m +no_defs",
+
+    "SPEED_OF_SOUND":1520,
+
+    "CATEGORIES": {
+      "51":[0,"Song","Bowhead whale"],
+      "52":[0,"Call","Bowhead whale"],
+      "11":[1,"Longtrill","Bearded seal"],
+      "12":[1,"Trill","Bearded seal"],
+      "13":[1,"Updowncall","Bearded seal"],
+      "14":[1,"Upcall","Bearded seal"],
+      "15":[1,"Downcall","Bearded seal"],
+      "16":[1,"Extrapolated","Bearded seal"],
+      "21":[2,"Bark","Ringed seal"],
+      "22":[2,"Yelp","Ringed seal"],
+      "23":[2,"Growl","Ringed seal"],
+      "31":[3,"Downsweep","Ribbon seal"],
+      "41":[4, "Unknown seal","Unknown seal"],
+      "0":[5, "Unspecified","Unspecified"]
+    },
+
+    "SHRU" : {
+      "SHRU1": [-159.01806666666667, 72.90687166666666, 302, "Channel_1"],
+      "SHRU2": [-158.27207166666668, 72.75391166666667, 308, "Channel_2"],
+      "SHRU4": [-157.53745833333335, 72.61097000000000, 301, "Channel_4"],
+      "SHRU3": [-157.48740333333333, 72.75763333333333, 445, "Channel_3"]
+    }
+  }
